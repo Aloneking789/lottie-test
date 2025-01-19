@@ -1,0 +1,55 @@
+.hero-banner-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin-bottom: 22.27vh;
+}
+.hero-banner-header{
+    font-family: Gabarito;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 88px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #202020;
+}
+.hero-banner-body{
+    font-family: Gabarito;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 88px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: linear-gradient(90deg, #17565A 0%, #32B7C0 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+.hero-banner-description{
+    font-family: Gabarito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 3rem;
+}
+
+.hero-banner-description ~ .hero-banner-description{
+    font-family: Gabarito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 0.5rem;
+}

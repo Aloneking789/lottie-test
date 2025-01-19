@@ -1,0 +1,38 @@
+.whatwedo-card-container{
+    padding: 3rem 28px 3rem 28px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20.244px;
+    background: #FCFCFC;
+    row-gap: 24px;
+}
+.whatwedo-title{
+    color: #1C1C1C;
+    font-family: Gabarito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 48px */
+    letter-spacing: -0.48px;
+}
+.whatwedo-description{
+    color: rgba(28, 28, 28, 0.60);
+    font-family: Gabarito;
+    font-size: 20.244px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28.342px */
+    letter-spacing: -0.202px;
+}
+.whatwedo-icon-wrapper{
+    background: #CE523A;
+    width: fit-content;
+    padding: 13.857px;
+    border-radius: 10.888px;
+}
+.whatwedo-card-arrow-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+}

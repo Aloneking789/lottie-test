@@ -1,0 +1,13 @@
+.whatwedo-card-rows{
+    width: 77.86%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    align-items: center;
+    margin-top: 15.27vh;
+}
+.whatwedo-card-columns{
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
